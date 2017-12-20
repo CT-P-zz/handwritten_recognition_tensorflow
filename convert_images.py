@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np 
 import cv2
 from PIL import Image
-
+#hardcoded part, please change to yours
 def convert_images():
 
     lstDir = os.walk(str("C:/Users/catarina/QRCodeDetection/Offline-Handwriting-Recognition-with-TensorFlow/Data/Dataset_word"))
